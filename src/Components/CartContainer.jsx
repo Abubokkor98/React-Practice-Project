@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import './CartContainer.css'
+import Cart from './Cart'
+import About from './About'
 
 export default function CartContainer() {
     const [isActive, SetIsActive] = useState({
@@ -30,7 +32,8 @@ export default function CartContainer() {
         <div onClick={()=>handleActiveStatus('About')} className={`${isActive.cart?"btn":"active btn"}`}>About</div>
         </div>
 
-
+        {isActive.cart?<Cart></Cart>:
+        <About></About>}
     </div>
   )
 }

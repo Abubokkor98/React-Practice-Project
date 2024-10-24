@@ -1,0 +1,59 @@
+{
+    "products": [
+        {
+          "id": 1,
+          "name": "Smartphone XYZ",
+          "image": "https://example.com/images/smartphone_xyz.jpg",
+          "description": "A high-end smartphone with a sleek design and powerful features.",
+          "price": 699.99,
+          "category": "Electronics",
+          "isFeature": true
+        },
+        {
+          "id": 2,
+          "name": "Gaming Laptop Pro",
+          "image": "https://example.com/images/gaming_laptop_pro.jpg",
+          "description": "A powerful gaming laptop with top-tier graphics and processing speed.",
+          "price": 1299.99,
+          "category": "Computers",
+          "isFeature": false
+        },
+        {
+          "id": 3,
+          "name": "Wireless Headphones",
+          "image": "https://example.com/images/wireless_headphones.jpg",
+          "description": "Comfortable wireless headphones with noise cancellation and long battery life.",
+          "price": 199.99,
+          "category": "Accessories",
+          "isFeature": true
+        },
+        {
+          "id": 4,
+          "name": "Smartwatch Series 5",
+          "image": "https://example.com/images/smartwatch_series_5.jpg",
+          "description": "A smartwatch with fitness tracking, notifications, and long battery life.",
+          "price": 299.99,
+          "category": "Wearables",
+          "isFeature": false
+        },
+        {
+          "id": 5,
+          "name": "4K Ultra HD TV",
+          "image": "https://example.com/images/4k_ultra_hd_tv.jpg",
+          "description": "A 65-inch 4K Ultra HD television with stunning picture quality.",
+          "price": 999.99,
+          "category": "Electronics",
+          "isFeature": true
+        },
+        {
+          "id": 6,
+          "name": "Bluetooth Speaker",
+          "image": "https://example.com/images/bluetooth_speaker.jpg",
+          "description": "Portable Bluetooth speaker with deep bass and water resistance.",
+          "price": 79.99,
+          "category": "Accessories",
+          "isFeature": false
+        }
+      ]
+      
+}
